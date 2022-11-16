@@ -1,0 +1,331 @@
+db.sellers.insert([
+    {
+      "seller_id": 1,
+      "seller_name": "aarti drugs",
+      "location_id": 1,
+      "state_id": 1,
+      "address": "Ashok Vihar Phase 3, New Delhi",
+      "seller logo": "#",
+      "average_rating": 4.2,
+      "rating_text": "Very Good",
+      "cost": 666,
+      "contact_number": 9453524651,
+      "productTypes": [
+        {
+          "producttype_id": 1,
+          "producttype": "drugs & pharma"
+        },
+        {
+          "producttype_id": 2,
+          "producttype": "hospital"
+        },  
+      ],
+      "image_gallery": [
+        "#",
+        "#"
+      ]
+    },
+    {
+        "seller_id": 2,
+        "seller_name": "nitin drugs",
+        "location_id": 2,
+        "state_id": 1,
+        "address": "chawri bazar, New Delhi",
+        "seller logo": "https.jpg",
+        "average_rating": 4,
+        "rating_text": "Very Good",
+        "cost": 999,
+        "contact_number": 9453524754,
+        "productTypes": [
+          {
+            "producttype_id": 2,
+            "producttype": "hospital"
+          },  
+        ],
+        "image_gallery": [
+          "https://b.jpg"
+        ]
+      },
+      {
+        "seller_id": 3,
+        "seller_name": "sai building materials",
+        "location_id": 3,
+        "state_id": 1,
+        "address": "chandni chock, New Delhi",
+        "seller logo": "hv2.jpg",
+        "average_rating": 3.9,
+        "rating_text": "Very Good",
+        "cost": 5000,
+        "contact_number": 9453578561,
+        "productTypes": [
+          {
+            "producttype_id": 3,
+            "producttype": "Building & Construction"
+          }, 
+          {
+            "producttype_id": 5,
+            "producttype": "Industrial"
+          }, 
+        ],
+        "image_gallery": [
+          "5.jpg",
+          "#"
+        ]
+      },
+      {
+        "seller_id": 4,
+        "seller_name": "taneja electricals",
+        "location_id": 1,
+        "state_id": 2,
+        "address": "udyog Vihar Phase 3, Gurgaon",
+        "seller logo": "#",
+        "average_rating": 4.5,
+        "rating_text": "Very Good",
+        "cost": 2500,
+        "contact_number": 9753578561,
+        "productTypes": [
+          {
+            "producttype_id": 4,
+            "producttype": "Electronics & Electrical"
+          }, 
+          {
+            "producttype_id": 6,
+            "producttype": "Industrial & Engineering Products"
+          }, 
+        ],
+        "image_gallery": [
+          "#",
+          "w.jpg"
+        ]
+      },
+      {
+        "seller_id": 4,
+        "seller_name": "taneja electricals",
+        "location_id": 2,
+        "state_id": 2,
+        "address": "Sec-16, Gurgaon",
+        "seller logo": "l.jpg",
+        "average_rating": 4.5,
+        "rating_text": "Very Good",
+        "cost": 500,
+        "contact_number": 9753578561,
+        "productTypes": [
+           {
+            "producttype_id": 5,
+            "producttype": "Industrial"
+          }, 
+          {
+            "producttype_id": 6,
+            "producttype": "Industrial & Engineering Products"
+          }, 
+        ],
+        "image_gallery": [
+          "e.jpg",
+          "e.jpg"
+        ]
+      },
+      {
+        "seller_id": 5,
+        "seller_name": "jain traders",
+        "location_id": 3,
+        "state_id": 2,
+        "address": "sec-17,chandigarh",
+        "seller logo": "l.jpg",
+        "average_rating": 4.3,
+        "rating_text": "Very Good",
+        "cost": 1500,
+        "contact_number": 9753578561,
+        "productTypes": [
+           {
+            "producttype_id": 5,
+            "producttype": "Industrial"
+          }, 
+          {
+            "producttype_id": 6,
+            "producttype": "Industrial & Engineering Products"
+          }, 
+        ],
+        "image_gallery": [
+          "h.jpg",
+          "5e.jpg"
+        ]
+      },
+      {
+        "seller_id": 5,
+        "seller_name": "jain traders",
+        "location_id": 4,
+        "state_id": 2,
+        "address": "sec-1,chandigarh",
+        "seller logo": "d_v2.jpg",
+        "average_rating": 4.3,
+        "rating_text": "Very Good",
+        "cost": 4000,
+        "contact_number": 9775578561,
+        "productTypes": [
+           {
+            "producttype_id": 3,
+            "producttype": "Building & Construction"
+          }, 
+          {
+            "producttype_id": 6,
+            "producttype": "Industrial & Engineering Products"
+          }, 
+        ],
+        "image_gallery": [
+          "9f5.jpg",
+          "f5e.jpg"
+        ]
+      },
+      {
+        "seller_id": 6,
+        "seller_name": "aahuja phramacy",
+        "location_id": 1,
+        "state_id": 3,
+        "address": "sec-21, lucknow",
+        "seller logo": "hv2.jpg",
+        "average_rating": 4.4,
+        "rating_text": "Very Good",
+        "cost": 4500,
+        "contact_number": 9775758561,
+        "productTypes": [
+           {
+            "producttype_id": 5,
+            "producttype": "Industrial"
+          },  
+          {
+            "producttype_id": 6,
+            "producttype": "Industrial & Engineering Products"
+          }, 
+        ],
+        "image_gallery": [
+          "399f5.jpg",
+          "5f5e.jpg"
+        ]
+      },
+      {
+        "seller_id": 7,
+        "seller_name": "naman indusries ",
+        "location_id": 2,
+        "state_id": 3,
+        "address": "udyog Vihar Phase 1, Ghaziabad",
+        "seller logo": "ured_v2.jpg",
+        "average_rating": 4.4,
+        "rating_text": "Very Good",
+        "cost": 5600,
+        "contact_number": 9775778461,
+        "productTypes": [
+           {
+            "producttype_id": 5,
+            "producttype": "Industrial"
+          },  
+          {
+            "producttype_id": 6,
+            "producttype": "Industrial & Engineering Products"
+          }, 
+        ],
+        "image_gallery": [
+          "399f5.jpg",
+          "5f5e.jpg"
+        ]
+      },
+      {
+        "seller_id": 7,
+        "seller_name": "naman indusries ",
+        "location_id": 3,
+        "state_id": 3,
+        "address": "sec-35, Noida",
+        "seller logo": "ed_v2.jpg",
+        "average_rating": 4,
+        "rating_text": "Very Good",
+        "cost": 5000,
+        "contact_number": 9775774861,
+        "productTypes": [
+           {
+            "producttype_id": 5,
+            "producttype": "Industrial"
+          },  
+          {
+            "producttype_id": 6,
+            "producttype": "Industrial & Engineering Products"
+          }, 
+        ],
+        "image_gallery": [
+          "h99f5.jpg",
+          "h95f5e.jpg"
+        ]
+      },
+      {
+        "seller_id": 8,
+        "seller_name": "anu indusries ",
+        "location_id": 1,
+        "state_id": 4,
+        "address": "indusrial area sec 2, ludhiana",
+        "seller logo": "ured_v2.jpg",
+        "average_rating": 3.8,
+        "rating_text": " Good",
+        "cost": 3000,
+        "contact_number": 9775712561,
+        "productTypes": [
+           {
+            "producttype_id": 5,
+            "producttype": "Industrial"
+          },  
+          {
+            "producttype_id": 3,
+            "producttype": "Building & Construction"
+          }, 
+        ],
+        "image_gallery": [
+          "hc399f5.jpg",
+          "h0a95f5e.jpg"
+        ]
+      },
+      {
+        "seller_id": 9,
+        "seller_name": "ayaaan medicine ",
+        "location_id": 2,
+        "state_id": 4,
+        "address": "udyog vihar 2 , mohali",
+        "seller logo": "eatu.jpg",
+        "average_rating": 4.5,
+        "rating_text": " very Good",
+        "cost": 3000,
+        "contact_number": 9775785461,
+        "productTypes": [
+            {
+                "producttype_id": 1,
+                "producttype": "drugs & pharma"
+              },
+              {
+                "producttype_id": 2,
+                "producttype": "hospital"
+              },  
+        ],
+        "image_gallery": [
+          "ha5.jpg",
+          "46d34.jpg"
+        ]
+      },
+      {
+        "seller_id": 10,
+        "seller_name": "gupta medical traders",
+        "location_id": 1,
+        "state_id": 4,
+        "address": "indusrial area sec 2, ludhiana",
+        "seller logo": "7d0.jpg",
+        "average_rating": 4.5,
+        "rating_text": " very Good",
+        "cost": 3000,
+        "contact_number": 9775785461,
+        "productTypes": [
+              {
+                "producttype_id": 2,
+                "producttype": "hospital"
+              },  
+        ],
+        "image_gallery": [
+          "f0.jpg",
+          "h43/.jpg"
+        ]
+      },
+])

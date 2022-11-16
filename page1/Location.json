@@ -1,0 +1,105 @@
+db.location.insert(
+    [
+        //Delhi//
+      {
+        "country_name": "India",
+        "state": "Delhi",
+        "City": "New Delhi",
+        "state_id": 1,
+        "location_id": 1,
+        "Address": "Ashok Vihar Phase 3, Delhi",
+      },
+      {
+        "country_name": "India",
+        "state": "Delhi",
+        "City": "New Delhi",
+        "state_id": 1,
+        "location_id": 2,
+        "Address": "chawri bazar, New Delhi",
+      },
+      {
+        "country_name": "India",
+        "state": "Delhi",
+        "City": "New Delhi",
+        "state_id": 1,
+        "location_id": 3,
+        "Address": "chandni chock, New Delhi",
+      },
+      
+       //Haryana//
+      {
+        "country_name": "India",
+        "state": "Haryana",
+        "City": "Gurgaon",
+        "state_id": 2,
+        "location_id": 1,
+        "Address": "udyog Vihar Phase 3, Gurgaon",
+      },
+      {
+        "country_name": "India",
+        "state": "Haryana",
+        "City": "Gurgaon",
+        "state_id": 2,
+        "location_id": 2,
+        "Address": "Sec-16, Gurgaon",
+      },
+      {
+        "country_name": "India",
+        "state": "Haryana",
+        "City": "Chandigarh",
+        "state_id": 2,
+        "location_id": 3,
+        "Address": "sec-17,chandigarh",
+      },
+      {
+        "country_name": "India",
+        "state": "Haryana",
+        "City": "chandigarh",
+        "state_id": 2,
+        "location_id": 4,
+        "Address": "sec-1,chandigarh",
+      },
+       //Uttar pardesh//
+      {
+        "country_name": "India",
+        "state": "Uttar pardesh",
+        "City": "lucknow",
+        "state_id": 3,
+        "location_id": 1,
+        "Address": "sec-21, lucknow",
+      },
+      {
+        "country_name": "India",
+        "state": "Uttar pardesh",
+        "City": "ghaziabad",
+        "state_id": 3,
+        "location_id": 2,
+        "Address": "udyog Vihar Phase 1, Ghaziabad",
+      },
+      {
+        "country_name": "India",
+        "state": "Uttar pardesh",
+        "City": "Noida",
+        "state_id": 3,
+        "location_id": 3,
+        "Address": "sec-35, Noida",
+      },
+        //punjab//
+      {
+        "country_name": "India",
+        "state": "punjab",
+        "City": "ludhiana",
+        "state_id": 4,
+        "location_id": 1,
+        "Address": "indusrial area sec 2, ludhiana",
+      },
+      {
+        "country_name": "India",
+        "state": "punjab",
+        "City": "mohali",
+        "state_id": 4,
+        "location_id": 2,
+        "Address": "udyog vihar 2 , mohali",
+      },
+    ]
+)

@@ -1,0 +1,17 @@
+db.orders.insert([
+    {
+        "_id": "62514d42f5aec503b2e0f2a9",
+        "name": "Aakash",
+        "email": "aakash@gmail.com",
+        "address": "Hno 23,Sector 1",
+        "phone": 768768686,
+        "cost": 787,
+        "menuItem": [
+            3,
+            5,
+            7
+        ],
+        "status": "Pending"
+    },
+
+])

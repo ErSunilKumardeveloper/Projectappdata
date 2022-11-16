@@ -1,0 +1,39 @@
+db.productType.insert([
+    {
+        "producttype_id": 1,
+        "producttype": "drugs & pharma",
+        "content": "Pharmaceutical Drug, Medicine, Medical Care & Consultation",
+        "product_image": "pharma.jpg"
+    },
+    {
+        "producttype_id":2,
+        "producttype": "hospital",
+        "content": "Pharmaceutical Drug, Medicine, Medical Care & Consultation",
+        "product_image": "hosp.jpg"
+    },
+    {
+        "producttype_id": 3,
+        "producttype": "Building & Construction",
+        "content": "Building Construction Material & Equipment",
+        "product_image": "build.jpg"
+    },
+    {
+        "producttype_id": 4,
+        "producttype": "Electronics & Electrical ",
+        "content": "Electronics & Electrical Goods & Supplies",
+        "product_image": "electt.jpg"
+    },
+    {
+        "producttype_id": 5,
+        "producttype": "Industrial ",
+        "content": "Industrial Plants, Machinery & Equipment",
+        "product_image": "plantst.jpg"
+    },
+    {
+        "producttype_id": 6,
+        "producttype": "Industrial & Engineering Products",
+        "content": "Industrial & Engineering Products, Spares and Supplies",
+        "product_image": "engg productt.jpg"
+    },
+  
+])

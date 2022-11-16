@@ -1,0 +1,12 @@
+db.product.insert([
+    {
+        "product_id":1,
+        "product_name": "Garlic Breadsticks",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "seller_id": 1,
+        "product_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
+        "product_type": "vegetarian",
+        "product_price": "99"
+    },
+])
+   
