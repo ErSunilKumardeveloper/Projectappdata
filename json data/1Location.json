@@ -7,7 +7,7 @@ db.location.insert(
         "City": "New Delhi",
         "state_id": 1,
         "location_id": 1,
-        "Address": "Ashok Vihar Phase 3, Delhi",
+        "Address": "Ashok Vihar Phase 3, Delhi"
       },
       {
         "country_name": "India",
@@ -15,7 +15,7 @@ db.location.insert(
         "City": "New Delhi",
         "state_id": 1,
         "location_id": 2,
-        "Address": "chawri bazar, New Delhi",
+        "Address": "chawri bazar, New Delhi"
       },
       {
         "country_name": "India",
@@ -23,7 +23,7 @@ db.location.insert(
         "City": "New Delhi",
         "state_id": 1,
         "location_id": 3,
-        "Address": "chandni chock, New Delhi",
+        "Address": "chandni chock, New Delhi"
       },
       
        //Haryana//
@@ -33,7 +33,7 @@ db.location.insert(
         "City": "Gurgaon",
         "state_id": 2,
         "location_id": 1,
-        "Address": "udyog Vihar Phase 3, Gurgaon",
+        "Address": "udyog Vihar Phase 3, Gurgaon"
       },
       {
         "country_name": "India",
@@ -41,7 +41,7 @@ db.location.insert(
         "City": "Gurgaon",
         "state_id": 2,
         "location_id": 2,
-        "Address": "Sec-16, Gurgaon",
+        "Address": "Sec-16, Gurgaon"
       },
       {
         "country_name": "India",
@@ -49,7 +49,7 @@ db.location.insert(
         "City": "Chandigarh",
         "state_id": 2,
         "location_id": 3,
-        "Address": "sec-17,chandigarh",
+        "Address": "sec-17,chandigarh"
       },
       {
         "country_name": "India",
@@ -57,7 +57,7 @@ db.location.insert(
         "City": "chandigarh",
         "state_id": 2,
         "location_id": 4,
-        "Address": "sec-1,chandigarh",
+        "Address": "sec-1,chandigarh"
       },
        //Uttar pardesh//
       {
@@ -66,7 +66,7 @@ db.location.insert(
         "City": "lucknow",
         "state_id": 3,
         "location_id": 1,
-        "Address": "sec-21, lucknow",
+        "Address": "sec-21, lucknow"
       },
       {
         "country_name": "India",
@@ -74,7 +74,7 @@ db.location.insert(
         "City": "ghaziabad",
         "state_id": 3,
         "location_id": 2,
-        "Address": "udyog Vihar Phase 1, Ghaziabad",
+        "Address": "udyog Vihar Phase 1, Ghaziabad"
       },
       {
         "country_name": "India",
@@ -82,7 +82,7 @@ db.location.insert(
         "City": "Noida",
         "state_id": 3,
         "location_id": 3,
-        "Address": "sec-35, Noida",
+        "Address": "sec-35, Noida"
       },
         //punjab//
       {
@@ -91,15 +91,49 @@ db.location.insert(
         "City": "ludhiana",
         "state_id": 4,
         "location_id": 1,
-        "Address": "indusrial area sec 2, ludhiana",
+        "Address": "indusrial area sec 2, ludhiana"
       },
       {
+        "location_id": 2,
         "country_name": "India",
         "state": "punjab",
         "City": "mohali",
         "state_id": 4,
-        "location_id": 2,
-        "Address": "udyog vihar 2 , mohali",
+        "Address": "udyog vihar 2 , mohali"
       },
+    ]
+)
+
+
+db.location.insert(
+    [
+      {
+        "location_id": 1,
+        "location_name": "Ashok Vihar Phase 3, New Delhi",
+        "state_id": 1,
+        "state": "Delhi",
+        "country_name": "India"
+      },
+      {
+        "location_id": 4,
+        "location_name": "Bibvewadi, Pune",
+        "state_id": 2,
+        "state": "Maharashtra",
+        "country_name": "India"
+      },
+      {
+        "location_id": 8,
+        "location_name": "Jeevan Bhima Nagar, Bangalore",
+        "state_id": 3,
+        "state": "Karnataka",
+        "country_name": "India"
+      },
+      {
+        "location_id": 13,
+        "location_name": "Sector 40, Chandigarh",
+        "state_id": 4,
+        "state": "Punjab",
+        "country_name": "India"
+      }
     ]
 )

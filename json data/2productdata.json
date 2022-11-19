@@ -1,0 +1,51 @@
+db.product.insert([
+    {
+        "product_id":1.1,
+        "product_name": "Face Mask",
+        "seller_id": 2,
+        "product_image": "https://i.ibb.co/wWv4CpG/cvid02.png",
+        "product_type": "drugs & pharma",
+        "product_price": "99"
+    },
+    {
+        "product_id":1.2,
+        "product_name": "Oxygen Supply",
+        "seller_id": 1,
+        "product_image": "https://i.ibb.co/48sPGzJ/1-2.jpg",
+        "product_type": "drugs & pharma",
+        "product_price": "999"
+    },
+    {
+        "product_id":1.3,
+        "product_name": "Medical Mask",
+        "seller_id": 6,
+        "product_image": "https://i.ibb.co/D8qDDP2/1-3.webp",
+        "product_type": "drugs & pharma",
+        "product_price": "499"
+    },
+    {
+        "product_id":1.4,
+        "product_name": "Surgical Gloves",
+        "seller_id": 2,
+        "product_image": "https://i.ibb.co/3M05Y0J/1-4.png",
+        "product_type": "drugs & pharma",
+        "product_price": "799"
+    },
+    {
+        "product_id":1.5,
+        "product_name": "Surgical Caps",
+        "seller_id": 2,
+        "product_image": "https://i.ibb.co/NNF9x4W/1-5.jpg",
+        "product_type": "drugs & pharma",
+        "product_price": "899"
+    },
+    {
+        "product_id":1.6,
+        "product_name": "P.P.Equip.",
+        "seller_id": 1,
+        "product_image": "https://i.ibb.co/qyvX8mJ/1-6.webp",
+        "product_type": "drugs & pharma",
+        "product_price": "1999"
+    },
+])
+   
