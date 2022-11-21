@@ -2,46 +2,61 @@ db.orders.insert([
     {
         "order_id":"1",
         "date_of_order":"21/10/2022",
+        "user_name" : "parveen Sharma",
+        "email" : "parveen@gmail.com",
+        "phone_no" : 9910964525,
         "address": "jangpura",
         "product_id":1.1,
         "Quantity":2,
-        "product_price":"Rs. 1800",
+        "price":"Rs. 1800",
         "user_id" : 1
     },
     {
         "order_id":"2",
         "date_of_order":"1/10/2022",
+        "user_name" : "Rupal Jain",
+        "email" : "jrupal@gmail.com",
+        "phone_no" : 9975856525,
         "address" : "Gandhi Nagar",
         "product_id":1.3,
         "Quantity":2,
-        "product_price":"Rs. 998",
+        "price":"Rs. 998",
         "user_id" : 4
     },
     {
         "order_id":"3",
         "date_of_order":"12/10/2022",
+        "user_name" : "Suresh Kapoor ",
+        "email" : "ksuresh@gmail.com",
+        "phone_no" : 9910991096,
         "address" : "Jaipur",
         "product_id":1.4,
         "Quantity":4,
-        "product_price":"Rs. 3200", 
+        "price":"Rs. 3200", 
         "user_id" : 5
     },
     {
         "order_id":"4",
         "date_of_order":"15/10/2022",
+        "user_name" : "Smriti Verma",
+        "email" : "s@gmail.com",
+        "phone_no" : 9911586290,
         "address" : "Agra",
         "product_id":1.6,
         "Quantity":1,
-        "product_price":"Rs. 1999", 
+        "price":"Rs. 1999", 
         "user_id" : 2
     },
     {
         "order_id":"5",
         "date_of_order":"19/10/2022",
+        "user_name" : "Sidharth Verma",
+        "email" : "sid27@gmail.com",
+        "phone_no" : 9988776655,
         "address" : "Chandigarh",
         "product_id":1.3,
         "Quantity":5,
-        "product_price":"Rs. 1497", 
+        "price":"Rs. 1497", 
         "user_id" : 3
-    }
-]
+    },
+])

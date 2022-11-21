@@ -1,25 +1,36 @@
 db.sellers.insert([
     {
       "seller_id": 1,
-      "seller_name": "aarti drugs",
+      "seller_name": "aarti traders",
       "location_id": 1,
       "state_id": 1,
       "address": "Ashok Vihar Phase 3, New Delhi",
       "seller logo": "#",
       "average_rating": 4.2,
       "rating_text": "Very Good",
-      "cost": 666,
+      "cost": 200,
       "contact_number": 9453524651,
       "productTypes": [
         {
-          "producttype_id": 1,
-          "producttype": "drugs & pharma"
+          "product_id": 1,
+          "producttype": "medical & safety"
         },
         {
           "producttype_id": 2,
-          "producttype": "hospital"
+          "producttype": "Medicine, Medical Care"
         },  
       ],
+      "electrical": [
+        {
+          "electrical_id": 3,
+          "product_name": "cooler"
+        },
+        {
+          "electrical_id": 2,
+          "product_name": "mixer"
+        }
+      ],
+      
       "image_gallery": [
         "#",
         "#"
@@ -34,12 +45,12 @@ db.sellers.insert([
         "seller logo": "https.jpg",
         "average_rating": 4,
         "rating_text": "Very Good",
-        "cost": 999,
+        "cost": 400,
         "contact_number": 9453524754,
         "productTypes": [
           {
-            "producttype_id": 2,
-            "producttype": "hospital"
+            "product_id": 2,
+            "producttype": "Medicine, Medical Care"
           },  
         ],
         "image_gallery": [
@@ -48,25 +59,36 @@ db.sellers.insert([
       },
       {
         "seller_id": 3,
-        "seller_name": "sai building materials",
+        "seller_name": "sai materials",
         "location_id": 3,
         "state_id": 1,
         "address": "chandni chock, New Delhi",
         "seller logo": "hv2.jpg",
         "average_rating": 3.9,
         "rating_text": "Very Good",
-        "cost": 5000,
+        "cost": 700,
         "contact_number": 9453578561,
         "productTypes": [
           {
-            "producttype_id": 3,
-            "producttype": "Building & Construction"
+            "product_id": 3,
+            "producttype": "Hygiene, Personal Care"
           }, 
           {
-            "producttype_id": 5,
+            "product_id": 5,
             "producttype": "Industrial"
           }, 
         ],
+        "electrical": [
+          {
+            "electrical_id": 1,
+            "product_name": "heater"
+          },
+          {
+            "electrical_id": 2,
+            "product_name": "mixer"
+          }
+        ],
+        
         "image_gallery": [
           "5.jpg",
           "#"
@@ -74,25 +96,26 @@ db.sellers.insert([
       },
       {
         "seller_id": 4,
-        "seller_name": "taneja electricals",
+        "seller_name": "taneja medicine & traders",
         "location_id": 1,
         "state_id": 2,
         "address": "udyog Vihar Phase 3, Gurgaon",
         "seller logo": "#",
         "average_rating": 4.5,
         "rating_text": "Very Good",
-        "cost": 2500,
+        "cost": 900,
         "contact_number": 9753578561,
         "productTypes": [
           {
-            "producttype_id": 4,
-            "producttype": "Electronics & Electrical"
+            "product_id": 4,
+            "producttype": "Hospital and Medical Equipment"
           }, 
           {
-            "producttype_id": 6,
+            "product_id": 6,
             "producttype": "Industrial & Engineering Products"
           }, 
         ],
+       
         "image_gallery": [
           "#",
           "w.jpg"
@@ -100,25 +123,26 @@ db.sellers.insert([
       },
       {
         "seller_id": 4,
-        "seller_name": "taneja electricals",
+        "seller_name": "taneja medicine & traders",
         "location_id": 2,
         "state_id": 2,
         "address": "Sec-16, Gurgaon",
         "seller logo": "l.jpg",
         "average_rating": 4.5,
         "rating_text": "Very Good",
-        "cost": 500,
+        "cost": 1200,
         "contact_number": 9753578561,
         "productTypes": [
            {
-            "producttype_id": 5,
+            "product_id": 5,
             "producttype": "Industrial"
           }, 
           {
-            "producttype_id": 6,
+            "product_id": 6,
             "producttype": "Industrial & Engineering Products"
           }, 
         ],
+       
         "image_gallery": [
           "e.jpg",
           "e.jpg"
@@ -137,11 +161,11 @@ db.sellers.insert([
         "contact_number": 9753578561,
         "productTypes": [
            {
-            "producttype_id": 5,
+            "product_id": 5,
             "producttype": "Industrial"
           }, 
           {
-            "producttype_id": 6,
+            "product_id": 6,
             "producttype": "Industrial & Engineering Products"
           }, 
         ],
@@ -159,15 +183,15 @@ db.sellers.insert([
         "seller logo": "d_v2.jpg",
         "average_rating": 4.3,
         "rating_text": "Very Good",
-        "cost": 4000,
+        "cost": 2000,
         "contact_number": 9775578561,
         "productTypes": [
            {
-            "producttype_id": 3,
-            "producttype": "Building & Construction"
+            "product_id": 3,
+            "producttype": "Hygiene, Personal Care"
           }, 
           {
-            "producttype_id": 6,
+            "product_id": 6,
             "producttype": "Industrial & Engineering Products"
           }, 
         ],
@@ -185,15 +209,15 @@ db.sellers.insert([
         "seller logo": "hv2.jpg",
         "average_rating": 4.4,
         "rating_text": "Very Good",
-        "cost": 4500,
+        "cost": 2500,
         "contact_number": 9775758561,
         "productTypes": [
            {
-            "producttype_id": 5,
+            "product_id": 5,
             "producttype": "Industrial"
           },  
           {
-            "producttype_id": 6,
+            "product_id": 6,
             "producttype": "Industrial & Engineering Products"
           }, 
         ],
@@ -211,15 +235,15 @@ db.sellers.insert([
         "seller logo": "ured_v2.jpg",
         "average_rating": 4.4,
         "rating_text": "Very Good",
-        "cost": 5600,
+        "cost": 2700,
         "contact_number": 9775778461,
         "productTypes": [
            {
-            "producttype_id": 5,
+            "product_id": 5,
             "producttype": "Industrial"
           },  
           {
-            "producttype_id": 6,
+            "product_id": 6,
             "producttype": "Industrial & Engineering Products"
           }, 
         ],
@@ -237,15 +261,15 @@ db.sellers.insert([
         "seller logo": "ed_v2.jpg",
         "average_rating": 4,
         "rating_text": "Very Good",
-        "cost": 5000,
+        "cost": 3000,
         "contact_number": 9775774861,
         "productTypes": [
            {
-            "producttype_id": 5,
+            "product_id": 5,
             "producttype": "Industrial"
           },  
           {
-            "producttype_id": 6,
+            "product_id": 6,
             "producttype": "Industrial & Engineering Products"
           }, 
         ],
@@ -263,16 +287,16 @@ db.sellers.insert([
         "seller logo": "ured_v2.jpg",
         "average_rating": 3.8,
         "rating_text": " Good",
-        "cost": 3000,
+        "cost": 3200,
         "contact_number": 9775712561,
         "productTypes": [
            {
-            "producttype_id": 5,
+            "product_id": 5,
             "producttype": "Industrial"
           },  
           {
-            "producttype_id": 3,
-            "producttype": "Building & Construction"
+            "product_id": 3,
+            "producttype": "Hygiene, Personal Care"
           }, 
         ],
         "image_gallery": [
@@ -289,16 +313,16 @@ db.sellers.insert([
         "seller logo": "eatu.jpg",
         "average_rating": 4.5,
         "rating_text": " very Good",
-        "cost": 3000,
+        "cost": 100,
         "contact_number": 9775785461,
         "productTypes": [
             {
-                "producttype_id": 1,
-                "producttype": "drugs & pharma"
+                "product_id": 1,
+                "producttype": "medical & safety"
               },
               {
-                "producttype_id": 2,
-                "producttype": "hospital"
+                "product_id": 2,
+                "producttype": "Medicine, Medical Care"
               },  
         ],
         "image_gallery": [
@@ -315,12 +339,12 @@ db.sellers.insert([
         "seller logo": "7d0.jpg",
         "average_rating": 4.5,
         "rating_text": " very Good",
-        "cost": 3000,
+        "cost": 5000,
         "contact_number": 9775785461,
         "productTypes": [
               {
-                "producttype_id": 2,
-                "producttype": "hospital"
+                "product_id": 2,
+                "producttype": "Medicine, Medical Care"
               },  
         ],
         "image_gallery": [

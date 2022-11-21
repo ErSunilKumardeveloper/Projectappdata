@@ -1,51 +1,67 @@
-db.product.insert([
+db.productdata.insert([
     {
         "product_id":1.1,
         "product_name": "Face Mask",
         "seller_id": 2,
-        "product_image": "https://i.ibb.co/wWv4CpG/cvid02.png",
-        "product_type": "drugs & pharma",
-        "product_price": "99"
+        "image": "https://i.ibb.co/wWv4CpG/cvid02.png",
+        "producttype": "medical & safety",
+        "price": "99"
     },
     {
         "product_id":1.2,
         "product_name": "Oxygen Supply",
         "seller_id": 1,
-        "product_image": "https://i.ibb.co/48sPGzJ/1-2.jpg",
-        "product_type": "drugs & pharma",
-        "product_price": "999"
+        "image": "https://i.ibb.co/48sPGzJ/1-2.jpg",
+        "producttype": "medical & safety",
+        "price": "999"
     },
     {
         "product_id":1.3,
         "product_name": "Medical Mask",
         "seller_id": 6,
-        "product_image": "https://i.ibb.co/D8qDDP2/1-3.webp",
-        "product_type": "drugs & pharma",
-        "product_price": "499"
+        "image": "https://i.ibb.co/D8qDDP2/1-3.webp",
+        "producttype": "medical & safety",
+        "price": "499"
     },
     {
         "product_id":1.4,
         "product_name": "Surgical Gloves",
         "seller_id": 2,
-        "product_image": "https://i.ibb.co/3M05Y0J/1-4.png",
-        "product_type": "drugs & pharma",
-        "product_price": "799"
+        "image": "https://i.ibb.co/3M05Y0J/1-4.png",
+        "producttype": "medical & safety",
+        "price": "799"
     },
     {
         "product_id":1.5,
         "product_name": "Surgical Caps",
         "seller_id": 2,
-        "product_image": "https://i.ibb.co/NNF9x4W/1-5.jpg",
-        "product_type": "drugs & pharma",
-        "product_price": "899"
+        "image": "https://i.ibb.co/NNF9x4W/1-5.jpg",
+        "producttype": "medical & safety",
+        "price": "899"
     },
     {
         "product_id":1.6,
         "product_name": "P.P.Equip.",
         "seller_id": 1,
-        "product_image": "https://i.ibb.co/qyvX8mJ/1-6.webp",
-        "product_type": "drugs & pharma",
-        "product_price": "1999"
+        "image": "https://i.ibb.co/qyvX8mJ/1-6.webp",
+        "producttype": "medical & safety",
+        "price": "1999"
+    },
+    {
+        "product_id":2.1,
+        "product_name": "Pharmaceutical Drug",
+        "seller_id": 1,
+        "image": "https://i.ibb.co/6HGKrRJ/2-1.jpg",
+        "producttype": "Medicine, Medical Care",
+        "price": "199"
+    },
+    {
+        "product_id":2.2,
+        "product_name": "Nutraceuticals",
+        "seller_id": 1,
+        "image": "https://i.ibb.co/8MHxbCh/2-2.jpg",
+        "producttype": "Medicine, Medical Care",
+        "price": "399"
     },
 ])
    
