@@ -1,6 +1,6 @@
 db.orders.insert([
     {
-        "order_id":"1",
+        "id":"1",
         "date_of_order":"21/10/2022",
         "user_name" : "parveen Sharma",
         "email" : "parveen@gmail.com",
@@ -10,6 +10,7 @@ db.orders.insert([
         "Quantity":2,
         "price":"Rs. 1800",
         "user_id" : 1
+        
     },
     {
         "order_id":"2",

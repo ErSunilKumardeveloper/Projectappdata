@@ -66,4 +66,13 @@ body
 
 
 //page 5
-> Update Payement Details 
+> Update Payement Details (PUT)
+* http://localhost:1000/updateOrder/1
+body
+ "status":"TXN_SUCCESS",
+        "bank_name":"HDFC",
+        "date": "10/11/22"
+
+> Delete Order (Delete)
+* http://localhost:1000/deleteOrder/637a311bdf0d8d0bd996bf69
+
